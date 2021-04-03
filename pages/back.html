@@ -1,0 +1,69 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+<title>Lob.com Sample 4x6 Postcard Back</title>
+<style>
+  *, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  body {
+    position: relative;
+    width: 6.25in;
+    height: 4.25in;
+    margin: 0;
+    padding: 0;
+    background-size: 6.25in 4.25in;
+    background-repeat: no-repeat;
+  }
+
+  #safe-area {
+    position: absolute;
+    width: 5.875in;
+    height: 3.875in;
+    left: 0.1875in;
+    top: 0.1875in;
+  }
+
+  #ink-free {
+    position: absolute;
+    width: 3.2835in;
+    height: 2.375in;
+    right: 0.275in;
+    bottom: 0.25in;
+    background-color: white;
+  }
+
+  .text {
+    margin: 10px;
+    width: 200px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+  }
+
+  .credit {
+    font-weight: bold;
+    font-size: 10px;
+  }
+</style>
+</head>
+
+<body>
+  <div id="safe-area">
+    <!-- All text should appear within the safe area. -->
+    <div class="text">
+      <span class="credit">Image Credit: NASA/JPL-Caltech/ASU</span>
+    </div>
+  </div>
+
+  <!-- Delete this div before submitting your postcard! -->
+  <!-- Do not place any artwork or text in the ink free area. Address and postage will be automatically printed here by Lob. -->
+  <div id="ink-free"></div>
+</body>
+
+</html>

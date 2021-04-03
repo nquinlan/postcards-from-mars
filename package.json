@@ -1,0 +1,25 @@
+{
+  "name": "postcards-from-mars",
+  "version": "0.0.1-beta",
+  "description": "This creates postcards from NASA's Mars Rovers and sends them to me!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nquinlan/postcards-from-mars.git"
+  },
+  "author": "Nick Quinlan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nquinlan/postcards-from-mars/issues"
+  },
+  "homepage": "https://github.com/nquinlan/postcards-from-mars#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "dotenv": "^8.2.0",
+    "lob": "^6.1.1"
+  }
+}
